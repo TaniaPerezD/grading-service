@@ -1,0 +1,71 @@
+.env
+# =========================
+# Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Build / dist
+# =========================
+dist/
+build/
+
+# =========================
+# Coverage / tests
+# =========================
+coverage/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Sequelize / DB (opcional)
+# =========================
+*.sqlite
+*.sqlite3
+
+# =========================
+# Swagger (si generas archivos)
+# =========================
+swagger-output.json
+
+# =========================
+# Uploads (si usas archivos)
+# =========================
+uploads/
+node_modules
